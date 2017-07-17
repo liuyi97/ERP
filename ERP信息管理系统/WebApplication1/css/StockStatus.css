@@ -1,0 +1,9 @@
+﻿#top ul li {
+    float:left;
+    margin-left:60px;
+    list-style:none;
+}
+#top {
+    width:700px ;
+    height:30px;
+}

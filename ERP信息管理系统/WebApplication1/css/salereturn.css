@@ -1,0 +1,22 @@
+﻿    * {
+
+    padding:0px;
+    list-style-type:none;
+    }
+    #main {
+    width:800px;
+    height:600px;
+    }
+    .CurledLineMiddle {
+    BORDER-RIGHT: medium none; 
+    BORDER-TOP: medium none; 
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: medium none; 
+    BORDER-BOTTOM: #a0a0a0 1px solid; 
+    BACKGROUND-COLOR: transparent; 
+    TEXT-ALIGN: center;
+    outline: none;
+    }
+#box {
+margin-top:50px;
+}

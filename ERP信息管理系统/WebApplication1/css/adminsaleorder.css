@@ -1,0 +1,35 @@
+﻿* {
+
+padding:0px;
+list-style-type:none;
+}
+#main {
+width:800px;
+height:405px;
+border:1px solid #cbc8c8;
+}
+.size {
+font-size:25px;
+/*margin-left:330px;*/
+margin-top:20px;
+}
+.one {
+margin-top:30px;
+margin-left:10px;
+}
+.two {
+margin-top:10px;
+margin-left:15px;
+margin-bottom:20px;
+}
+   .CurledLineMiddle {
+        BORDER-RIGHT: medium none; 
+        BORDER-TOP: medium none; 
+        FONT-SIZE: 9pt;
+         BORDER-LEFT: medium none; 
+         BORDER-BOTTOM: #a0a0a0 1px solid; 
+         BACKGROUND-COLOR: transparent; 
+         TEXT-ALIGN: center;
+         outline: none;
+ }
+

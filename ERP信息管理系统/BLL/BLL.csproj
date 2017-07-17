@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F015F057-4248-4B80-831C-FC9E9F337F38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MagBLL\StockStatusManages.cs" />
+    <Compile Include="MagBLL\t_AuthorityManages.cs" />
+    <Compile Include="MagBLL\t_BuyOrderManages.cs" />
+    <Compile Include="MagBLL\t_BuyPayManages.cs" />
+    <Compile Include="MagBLL\t_BuyReceiptManages.cs" />
+    <Compile Include="MagBLL\t_BuyReturnManages.cs" />
+    <Compile Include="MagBLL\t_InventoryManages.cs" />
+    <Compile Include="MagBLL\t_NoticeManages.cs" />
+    <Compile Include="MagBLL\t_ProductsStockManages.cs" />
+    <Compile Include="MagBLL\t_TransferringOrderManages.cs" />
+    <Compile Include="MagBLL\t_UserManages.cs" />
+    <Compile Include="ProBLL\InventoryManager.cs" />
+    <Compile Include="ProBLL\POutManager.cs" />
+    <Compile Include="ProBLL\ProIntoManager.cs" />
+    <Compile Include="ProBLL\TransferManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockBLL\addorderManages.cs" />
+    <Compile Include="StockBLL\adminorderManager.cs" />
+    <Compile Include="StockBLL\adminSaleManager.cs" />
+    <Compile Include="StockBLL\AdminsalePManager.cs" />
+    <Compile Include="StockBLL\HouseManager.cs" />
+    <Compile Include="StockBLL\ProductDetailSelect.cs" />
+    <Compile Include="StockBLL\SaleInManager.cs" />
+    <Compile Include="StockBLL\SalePayManager.cs" />
+    <Compile Include="StockBLL\salereturnManager.cs" />
+    <Compile Include="StockBLL\selectorder.cs" />
+    <Compile Include="SysBLL\GroupManager.cs" />
+    <Compile Include="SysBLL\NoticeManager.cs" />
+    <Compile Include="SysBLL\ProductsBrandManager.cs" />
+    <Compile Include="SysBLL\ProductsManager.cs" />
+    <Compile Include="SysBLL\ProductsTypeManager.cs" />
+    <Compile Include="SysBLL\StoreHouseDetailManager.cs" />
+    <Compile Include="SysBLL\StoreHouseManager.cs" />
+    <Compile Include="SysBLL\SupplierManager.cs" />
+    <Compile Include="SysBLL\UserManager.cs" />
+    <Compile Include="SysBLL\UserTypeManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{cb70fe6b-d64c-48d9-a3a7-431c343fad31}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{5b691eb5-e119-40a2-8e57-55ef5f669db8}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

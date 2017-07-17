@@ -1,0 +1,12 @@
+C:\Users\LiNing\Desktop\WebApplication1\Model\bin\Debug\Model.dll
+C:\Users\LiNing\Desktop\WebApplication1\Model\bin\Debug\Model.pdb
+C:\Users\LiNing\Desktop\WebApplication1\Model\obj\Debug\Model.dll
+C:\Users\LiNing\Desktop\WebApplication1\Model\obj\Debug\Model.pdb
+F:\ASP.NETWEB企业开发\WebApplication1\Model\bin\Debug\Model.dll
+F:\ASP.NETWEB企业开发\WebApplication1\Model\bin\Debug\Model.pdb
+F:\ASP.NETWEB企业开发\WebApplication1\Model\obj\Debug\Model.dll
+F:\ASP.NETWEB企业开发\WebApplication1\Model\obj\Debug\Model.pdb
+E:\ASP.NETWEB企业开发\WebApplication1\Model\bin\Debug\Model.dll
+E:\ASP.NETWEB企业开发\WebApplication1\Model\bin\Debug\Model.pdb
+E:\ASP.NETWEB企业开发\WebApplication1\Model\obj\Debug\Model.dll
+E:\ASP.NETWEB企业开发\WebApplication1\Model\obj\Debug\Model.pdb
